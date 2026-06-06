@@ -6,29 +6,28 @@ export default function HomePage() {
   const tCal = useTranslations("calendar");
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-background">
-      <Card variant="on-cream" className="max-w-md w-full text-center space-y-6 shadow-md">
+    <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-bg">
+      <Card className="max-w-md w-full text-center space-y-6">
         <div className="space-y-4">
-          {/* Logo aligning with the brand identity */}
           <div className="flex justify-center items-center gap-2 select-none">
-            <span className="text-primary text-3xl font-display font-bold">
-              hum<span className="text-near-black">AI</span>ne
+            <span className="text-primary text-3xl font-display font-bold tracking-tight">
+              yesnow
             </span>
           </div>
-          <h1 className="text-3xl font-display font-bold tracking-tight text-foreground">
+          <h1 className="text-2xl font-display font-bold tracking-tight text-text-primary">
             {t("welcome")}
           </h1>
-          <p className="text-near-black font-sans text-base leading-relaxed">
-            Swiss service industry platform (HQ & Marketplace). We build trust and technological sophistication.
+          <p className="text-text-secondary font-sans text-base leading-relaxed">
+            Swiss service industry platform (HQ & Marketplace). Simple to start, powerful to grow into.
           </p>
         </div>
 
-        <div className="border-t border-secondary/30 pt-6 flex flex-col gap-3">
+        <div className="border-t border-gray-150 pt-6 flex flex-col gap-3">
           <Button variant="primary" size="md">
             {tCal("title")}
           </Button>
-          <Button variant="secondary" size="md">
-            {t("confirm")}
+          <Button variant="outline" size="md">
+            {t("cancel")}
           </Button>
         </div>
       </Card>
