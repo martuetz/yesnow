@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563eb;
+  --color-primary-light: #dbeafe;
+  --color-primary-dark: #1e40af;
+
+  --color-bg: #fafbfc;
+  --color-surface: #ffffff;
+  --color-border-custom: #e5e7eb;
+
+  --color-accent-custom: #8b5cf6;
+  --color-accent-light: #ede9fe;
+
+  --color-success-custom: #059669;
+  --color-warning-custom: #d97706;
+  --color-error-custom: #dc2626;
+
+  /* Calendar staff colors (auto-assigned) */
+  --color-staff-1: #3b82f6;
+  --color-staff-2: #8b5cf6;
+  --color-staff-3: #ec4899;
+  --color-staff-4: #f59e0b;
+  --color-staff-5: #10b981;
+  --color-staff-6: #ef4444;
+  --color-staff-7: #6366f1;
+  --color-staff-8: #14b8a6;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Plus Jakarta Sans", var(--font-sans);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: #111827; /* Neutral dark text */
+    font-family: var(--font-sans);
+  }
+}

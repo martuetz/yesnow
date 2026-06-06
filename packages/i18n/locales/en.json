@@ -1,0 +1,16 @@
+{
+  "common": {
+    "appName": "yesnow",
+    "welcome": "Welcome to yesnow",
+    "cancel": "Cancel",
+    "save": "Save",
+    "confirm": "Confirm"
+  },
+  "calendar": {
+    "title": "Calendar",
+    "today": "Today",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month"
+  }
+}

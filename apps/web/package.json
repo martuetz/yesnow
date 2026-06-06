@@ -1,0 +1,38 @@
+{
+  "name": "@yesnow/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zustand": "^5.0.2",
+    "@tanstack/react-query": "^5.62.2",
+    "@trpc/client": "^11.0.0-rc.648",
+    "@trpc/react-query": "^11.0.0-rc.648",
+    "@trpc/server": "^11.0.0-rc.648",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "next-intl": "^3.25.1",
+    "@yesnow/shared": "workspace:*",
+    "@yesnow/db": "workspace:*",
+    "@yesnow/api": "workspace:*",
+    "@yesnow/i18n": "workspace:*",
+    "@yesnow/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "tailwindcss": "^4.0.0-beta.7",
+    "@tailwindcss/postcss": "^4.0.0-beta.7",
+    "postcss": "^8.4.49"
+  }
+}

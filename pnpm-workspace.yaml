@@ -1,0 +1,15 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+allowBuilds:
+  esbuild: true
+  sharp: true
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+
+overrides:
+  "@types/react": "^19.0.1"
+  "@types/react-dom": "^19.0.1"

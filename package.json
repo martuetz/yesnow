@@ -1,0 +1,21 @@
+{
+  "name": "yesnow-monorepo",
+  "private": true,
+  "packageManager": "pnpm@11.5.2",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md,css,scss}\"",
+    "clean": "turbo clean && find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "eslint": "^9.16.0"
+  }
+}

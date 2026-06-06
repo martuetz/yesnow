@@ -1,0 +1,16 @@
+{
+  "common": {
+    "appName": "yesnow",
+    "welcome": "Bienvenue chez yesnow",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "confirm": "Confirmer"
+  },
+  "calendar": {
+    "title": "Calendrier",
+    "today": "Aujourd'hui",
+    "day": "Jour",
+    "week": "Semaine",
+    "month": "Mois"
+  }
+}
